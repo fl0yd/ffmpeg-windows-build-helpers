@@ -1362,7 +1362,7 @@ build_libdecklink() {
 build_ffmpeg() {
   local type=$1
   local shared=$2
-  local git_url="https://github.com/FFmpeg/FFmpeg.git"
+  local git_url="https://github.com/fl0yd/FFmpeg.git"
   local output_dir="ffmpeg_git"
 
   if [[ "$non_free" = "y" ]]; then
