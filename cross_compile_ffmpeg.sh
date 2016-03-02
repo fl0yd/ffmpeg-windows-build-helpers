@@ -1382,7 +1382,7 @@ build_ffmpeg() {
     postpend_configure_opts="--enable-static --disable-shared $postpend_configure_opts --prefix=$mingw_w64_x86_64_prefix"
   fi
 
-  do_git_checkout $git_url ${output_dir}
+  #do_git_checkout $git_url ${output_dir}
   cd $output_dir
   
   if [ "$bits_target" = "32" ]; then
